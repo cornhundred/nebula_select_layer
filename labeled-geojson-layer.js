@@ -1,19 +1,8 @@
 // A deck.gl custom layer taken from https://observablehq.com/@pessimistress/deck-gl-custom-layer-tutorial
 import * as turf from "@turf/turf";
 
-
-console.log('working on imports')
-
-// import { EditableGeoJsonLayer } from "@nebula.gl/layers";
-
-// import { EditableGeoJsonLayer } from 'nebula.gl';
-// import 'nebula.gl'
-
-import { EditableGeoJsonLayer, DrawPolygonMode } from 'nebula.gl';
-
 import {CompositeLayer, GeoJsonLayer, TextLayer} from './deck-layers';
-
-import { Deck } from "@deck.gl/core";
+import { EditableGeoJsonLayer, DrawPolygonMode } from 'nebula.gl';
 
 const defaultProps = {
   // Inherit all of GeoJsonLayer's props
