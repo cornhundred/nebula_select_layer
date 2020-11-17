@@ -1,6 +1,8 @@
 // A deck.gl custom layer taken from https://observablehq.com/@pessimistress/deck-gl-custom-layer-tutorial
 import * as turf from "@turf/turf";
 
+console.log('nebula_select_layer HERE!!!!!!!!')
+
 import {CompositeLayer, GeoJsonLayer, TextLayer} from './deck-layers';
 
 const defaultProps = {
