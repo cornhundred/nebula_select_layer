@@ -23,3 +23,16 @@ Navigate to http://localhost:8080/custom_layer.html in your browser, which shoul
 
 You can deploy your project to NPM and host the your bundle on unpkg, which you can see in the
 [custom layer example in the pydeck docs](https://pydeck.gl/gallery/custom_layer.html).
+
+
+### Nebula
+Trying to import nebula using this example
+https://github.com/hubmapconsortium/vitessce/blob/3ac8d385a659afbbe594d754ed0883f1a56d8813/src/layers/SelectionLayer.js#L11
+
+and this example
+
+https://codesandbox.io/s/deckgl-and-nebulagl-editablegeojsonlayer-no-react-forked-7fcst?file=/app.js:86-144
+
+Following these instructions to get rid of error
+
+https://github.com/uber/nebula.gl/issues/485
